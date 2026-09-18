@@ -1,31 +1,93 @@
 # dormtracker.py
-A CLI tool for room setup, roommate almanac profiles, chore rotation, and shared expense tracking.
+
+Dorm Tracker is a Python CLI tool designed to help dorm residents manage room setup, roommate information, chore rotation, and shared expenses in one organized system.
 
 Effortless room organization.
 
-Unrivaled clarity. 
+Unrivaled clarity.
 
 Designed for modern dormitory living.
 
 ## Project Overview
--Reinventing the way dorm rooms run.
 
-Managing a shared space should feel seamless and organized, not complex. **Dorm Tracker** brings high-precision room coordination to your daily routine. By integrating an intuitive roommate index, an intelligent chore allocation, and transparent expense tracking into one unified experience, DormTracker ensures every member of your space stays synced; effortlessly.
+Managing a shared dorm room should be simple, organized, and stress-free. Dorm Tracker brings structure to everyday dorm life by helping roommates keep track of responsibilities, room details, shared costs, and personal profiles in one place.
+
+Instead of juggling scattered notes, spreadsheets, and reminders, users can manage everything through a streamlined command-line interface designed for convenience and clarity.
+
+## Features
+
+- Room setup tracking
+- Roommate profile management
+- Chore rotation scheduling
+- Shared expense tracking
+- Simple local data storage
+- Lightweight command-line workflow
+
+## Why This Project Matters
+
+Dorm life often involves coordination between multiple people. Whether it is assigning chores, tracking monthly expenses, or keeping roommate information organized, Dorm Tracker aims to make shared living easier to manage.
 
 ## Availability
-### **Coming Soon.**
-Currently in active development for Quarter 1, though the pseudocode is posted in the project proposal.
 
-## Tech Stack and Requirements
-Core Engine: Python 3.x
+### Coming Soon
 
-Interface: Command-line Interface (CLI)
+This project is currently in active development. The basic concept and structure are defined in the project proposal, which is included in the repository.
 
-Architecture: In-memory dictionary state management and local structural persistence
+## Requirements
 
-Environment: Any platform running a standard Python terminal
+- Python 3.x
+- A standard terminal or command-line environment
 
----
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/wabriol-web/dormtracker.py.git
+   cd dormtracker.py
+   ```
+
+2. Run the program:
+
+   ```bash
+   python main.py
+   ```
+
+## Basic Usage
+
+The project is meant to be used through a command-line interface. Sample actions may include:
+
+```bash
+python main.py add-roommate "Ana"
+python main.py add-chore "Vacuum room"
+python main.py add-expense "Groceries" 250
+python main.py show-summary
+```
+
+> Replace these examples with the actual commands used by the final implementation once the CLI commands are fully defined.
+
+## Project Documentation
+
+- Project Proposal: [ProjectProposal.pdf](ProjectProposal.pdf)
+
+## Tech Stack
+
+- Python 3.x
+- Command-line interface (CLI)
+- In-memory dictionary state management
+- Local persistence for lightweight, personal use
+
+## Current Status
+
+This project is still under development and is intended as a practical dorm organization tool.
+
+## Roadmap
+
+- Add roommate profile management
+- Improve chore rotation logic
+- Add expense summaries and breakdowns
+- Improve CLI usability and readability
+- Expand local data persistence features
 
 ## Author
 
@@ -35,5 +97,5 @@ Environment: Any platform running a standard Python terminal
 
 **Campus:** Philippine Science High School - Bicol Region Campus
 
-**Author's comments:**
-I just want to keep my format of this readme file similar to famous device brands explaining their products. Sorry if it is too serious or anything :).
+**Author's note:**
+I wanted to keep the format of this README similar to a product brand page, while still making it clear and easy to understand. Thank you for reading and supporting this project.
