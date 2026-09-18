@@ -19,7 +19,7 @@ Outputs: Welcome message with room number, formatted view of roommate's profile 
 
 **VI. Pseudocode:**
 
-```text
+```
 START
   PROMPT user for room_number
   PROMPT user for user_name
