@@ -56,7 +56,7 @@ This project is currently in active development. The basic concept and structure
 
 ## Project Documentation
 
-- Project Proposal: [ProjectProposal.pdf](ProjectProposal.pdf)
+- Project Proposal: [ProjectProposal.md](ProjectProposal.md)
 
 ## Tech Stack
 
