@@ -53,18 +53,6 @@ This project is currently in active development. The basic concept and structure
    python main.py
    ```
 
-## Basic Usage
-
-The project is meant to be used through a command-line interface. Sample actions may include:
-
-```bash
-python main.py add-roommate "Ana"
-python main.py add-chore "Vacuum room"
-python main.py add-expense "Groceries" 250
-python main.py show-summary
-```
-
-> Replace these examples with the actual commands used by the final implementation once the CLI commands are fully defined.
 
 ## Project Documentation
 
